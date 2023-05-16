@@ -6,5 +6,10 @@ if (typeof jQuery == "undefined") {
 }
 */
 //----------------------------------Year 1----------------------------------------------------/
-const $container = document.querySelector("body");
-console.log($container);
+const $container = $("#container");
+// console.log($container);
+const $h1 = $("<h1>");
+console.log($h1);
+$h1.innerHTML = "Hogwarts";
+console.log($h1);
+$container.append($h1);
