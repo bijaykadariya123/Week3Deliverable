@@ -1,0 +1,170 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(232, 227, 227);
+  padding: 10px;
+}
+.menuItem {
+  background-color: #92b2ba;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.menu-item {
+  color: aliceblue;
+  font-size: 1.5em;
+  font-family: "DM Sans", sans-serif;
+}
+.banner {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+.banner-text {
+  position: absolute;
+  top: 240px;
+  right: 0%;
+  /* padding: 0 50px; */
+  text-align: right;
+  padding-right: 40px;
+  font-family: "DM Sans", sans-serif;
+}
+.flower-banner-text {
+  font-size: 80px;
+}
+
+.bannerText-align {
+  margin-top: -15px;
+  position: relative;
+  background-color: white;
+  color: #f9dde0;
+  font-size: 20px;
+  width: 305px;
+  text-align: right;
+
+  /* font-size: 2em; */
+}
+.main {
+  width: 100%;
+}
+.img-container {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  width: 100%;
+}
+.first-l,
+.second-l,
+.third-l {
+  padding: 10px 0 10px 0;
+}
+.main img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.first,
+.second,
+.third {
+  padding: 10px 20px 10px 0;
+}
+.description {
+  background-color: white;
+  padding: 20px;
+}
+.price-note {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.1em;
+  color: #92b2ba;
+}
+.price {
+  background-color: #f5acb2;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+.p-element {
+  background-color: rgb(233, 239, 242);
+  margin-right: 5px;
+  font-size: 12px;
+  color: transparent;
+  text-shadow: 0 0 1.5px rgba(43, 42, 42, 0.9);
+}
+.note-description {
+  display: flex;
+}
+
+.img-txt {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+/* -------------------foooter item--------------------------- */
+.foot {
+  width: 100%;
+  display: flex;
+
+  box-shadow: 0 0 1.5px rgba(145, 137, 137, 0.5);
+  margin-top: 20px;
+}
+.logo {
+  width: 40%;
+  border-right: 1px solid rgb(192, 183, 183);
+  text-align: right;
+  padding: 30px;
+  padding-right: 55px;
+  font-family: "DM Sans", sans-serif;
+}
+.logo-container {
+  position: relative;
+  right: 100px;
+  /* border-right: 1px solid rgb(186, 178, 178); */
+}
+.gift {
+  width: 150px;
+  height: 150px;
+}
+.footer-text {
+  position: relative;
+  left: 18px;
+  color: #f0a8bb;
+}
+.logo-item img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -40px;
+}
+.services {
+  width: 20%;
+  /* border-right: 1px solid rgb(124, 119, 119, 0.5); */
+  /* this is not working below */
+  /* margin: 0 auto; */
+  padding: 15px 0px 0px 40px;
+  line-height: 30px;
+  border-right: 1px solid rgb(192, 183, 183);
+  padding: 30px;
+}
+.li-class,
+.li-class-1 {
+  list-style: none;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+.notice {
+  width: 40%;
+  padding: 30px 0px 0px 40px;
+  line-height: 30px;
+}
+
+ul {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  color: #92b2ba;
+}
