@@ -8,8 +8,5 @@ if (typeof jQuery == "undefined") {
 //----------------------------------Year 1----------------------------------------------------/
 const $container = $("#container");
 // console.log($container);
-const $h1 = $("<h1>");
-console.log($h1);
-$h1.innerHTML = "Hogwarts";
-console.log($h1);
+const $h1 = $("<h1>").html("Hogwarts");
 $container.append($h1);
