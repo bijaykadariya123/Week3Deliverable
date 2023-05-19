@@ -22,3 +22,17 @@ const $h42 = $("<h4>").html(
   "If You Were To Enter The Magical World Of Harry Potter Which Villon Would You Be?"
 );
 $container.append($h42);
+
+const $ul = $("<ul>").attr("storage", "trunk");
+$container.append($ul);
+const $li = $("<li>").html("butter beer");
+$ul.append($li);
+const $li1 = $("<li>")
+  .addClass("secret")
+  .html("invisibility cloak")
+  .addClass("secret")
+  .html("magic map")
+  .addClass("secret")
+  .html("time turner");
+
+$ul.append($li1);
