@@ -3,3 +3,10 @@ body {
   text-align: center;
   font-family: fantasy;
 }
+
+.secret {
+  opacity: 0.5;
+}
+li {
+  list-style: none;
+}
