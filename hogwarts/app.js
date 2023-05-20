@@ -79,3 +79,20 @@ $tbody.append(
 $table.append($tbody);
 
 $container.append($table);
+
+// ======================Year 5==============================//
+$h42.remove();
+$ul.find('li:contains("butter beer")').remove();
+
+// const $h4 = $("<h4>").addClass("pet").html("owl");
+let $newWand = $("<h4>").html(`Bijay's Wand`).insertAfter($h4);
+$newWand.css("color", "red");
+let $pet = $h4.remove();
+
+let $itemToMove = $('ul[storage="trunk"] li:nth-child(4)');
+$itemToMove.detach();
+$itemToMove.insertBefore('ul[storage="trunk"] li:nth-child(1)');
+$itemToMove.detach();
+$itemToMove.insertAfter('ul[storage="trunk"] li:nth-child(3)');
+
+//============================================================//
