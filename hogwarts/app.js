@@ -72,9 +72,6 @@ $tbody.append(
 $tbody.append(
   $("<tr>").append($("<td>").html("Friday"), $("<td>").html("transfiguration"))
 );
-// $tbody.append(
-//   $("<tr>").append($($td).html("Wednesday"), $(td1).html("Quidditch Practice"))
-// );
 
 $table.append($tbody);
 
@@ -106,3 +103,7 @@ $itemToMove.removeClass("cabbage");
 
 //============================================================//
 //==========================Year 7============================//
+$("#container h5").html("Fall 2018");
+$ul.prepend($("<li>").text("Butter beer"));
+$ul.attr("storage", "chest");
+//============================================================//
