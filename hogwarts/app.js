@@ -42,3 +42,40 @@ $ul.append($li);
 $li = $("<li>").html(`Bertie Bott\'s Every Flavor [Jelly] Beans`);
 $ul.append($li);
 $container.append($ul);
+
+// ===========================================================//
+$($container).append($("<h5>").html("Spring 2017"));
+let $table = $("<table>");
+let $thead = $("<thead>");
+let $tr = $("<tr>");
+let $td = $("<td>");
+let $td1 = $("<td>");
+// $thead.append($($tr).append($($th).html("Day"), $($th1).html("Classes")));
+$thead
+  .append($($tr).append($("<th>").html("Day"), $("<th>").html("Classes")))
+  .addClass("Heading");
+$table.append($thead);
+let $tbody = $("<tbody>");
+$tbody.append(
+  //$($tr) Why this variable dont work in line 59 instead to "<tr>" and also   $("<tr>").append($($td).html("Monday"), $($td1).html("History of Magic")) it deletes the previous list
+  $("<tr>").append($("<td>").html("Monday"), $("<td>").html("History of Magic"))
+);
+$tbody.append(
+  $("<tr>").append($("<td>").html("Tuesday"), $("<td>").html("Divination"))
+);
+$tbody.append(
+  $("<tr>").append($("<td>").html("Wednesday"), $("<td>").html("Herbology"))
+);
+$tbody.append(
+  $("<tr>").append($("<td>").html("Thursday"), $("<td>").html("Charms"))
+);
+$tbody.append(
+  $("<tr>").append($("<td>").html("Friday"), $("<td>").html("transfiguration"))
+);
+// $tbody.append(
+//   $("<tr>").append($($td).html("Wednesday"), $(td1).html("Quidditch Practice"))
+// );
+
+$table.append($tbody);
+
+$container.append($table);
