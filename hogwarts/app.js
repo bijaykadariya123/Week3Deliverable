@@ -96,3 +96,13 @@ $itemToMove.detach();
 $itemToMove.insertAfter('ul[storage="trunk"] li:nth-child(3)');
 
 //============================================================//
+//==========================Year 6============================//
+$(".secret").hide("slow").delay(2000);
+const alpha = setTimeout(() => {
+  $(".secret").show("slow");
+}, 3000);
+$itemToMove.addClass("cabbage");
+$itemToMove.removeClass("cabbage");
+
+//============================================================//
+//==========================Year 7============================//
